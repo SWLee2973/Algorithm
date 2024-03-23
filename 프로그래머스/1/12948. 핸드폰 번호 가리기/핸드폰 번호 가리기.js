@@ -1,0 +1,1 @@
+const solution = phone_number => phone_number.split('').map((item, index, arr) => index < arr.length - 4 ? '*' : item).join('');
