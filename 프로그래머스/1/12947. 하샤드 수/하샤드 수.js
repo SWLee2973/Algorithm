@@ -1,0 +1,1 @@
+const solution = x => x % String(x).split('').map(v => +v).reduce((a, c) => a + c, 0) === 0 ? true : false
